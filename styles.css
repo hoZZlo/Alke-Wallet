@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: blueviolet;
+    font-family: "Cormorant", serif;
+    font-size: larger;
+}
+
+.principal {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.saldo-box {
+    border: 1px solid blueviolet;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn-cyber {
+    background-color: blueviolet;
+    border: none;
+    color: black;
+    margin: 5px;
+}
+
+.btn-cyber:hover {
+    background-color: #9d4edd;
+}

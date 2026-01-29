@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber-Wallet</title>
+    <link rel="icon" type="image/jpeg" href="images/offline.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="menu.html">
+      <h1>Cyber-Wallet</h1>
+    </a>
+  </div>
+</nav>
+
+<h1 class="principal">Menú principal</h1>
+
+<div class="saldo-box">
+  <h3>Bienvenido, usuario</h3>
+  <p>Tu saldo es de:</p>
+  <h4>$<span id="saldo">0</span> CLP</h4>
+</div>
+
+<div class="text-center">
+  <button class="btn btn-cyber" onclick="redirigir('deposit.html','Depósito')">Depositar</button>
+  <button class="btn btn-cyber" onclick="redirigir('sendmoney.html','Enviar dinero')">Enviar dinero</button>
+  <button class="btn btn-cyber" onclick="redirigir('transactions.html','Últimos movimientos')">Transacciones</button>
+  <p id="msg"></p>
+</div>
+
+<div class="text-center mt-3">
+  <img src="https://i.pinimg.com/originals/7f/b7/c7/7fb7c7e100cfd93b4acc185ee4ee5615.gif" 
+     width="500">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
